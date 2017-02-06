@@ -349,7 +349,7 @@ const char *InfFile::UninstallInfTag(bool showErrors) const
   return pUninstallInfTag;
 }
 ///////////////////////////////////////////////////////////////
-static UINT FileCallback(
+static UINT CALLBACK FileCallback(
     PVOID Context,
     UINT Notification,
     UINT_PTR Param1,

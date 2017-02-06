@@ -29,7 +29,7 @@
  */
 
 #include <windows.h>
-
+#pragma comment(lib, "setup.lib")
 int CALLBACK MainA(const char *pProgName, const char *pCmdLine);
 
 int _cdecl main(int argc, char *argv[])
